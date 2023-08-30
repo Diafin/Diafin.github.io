@@ -1,0 +1,11 @@
+.footer-post {
+    display: flex;
+}
+
+.footer-post__image {
+    justify-content: left;
+}
+
+.footer-post__text {
+    justify-content: right;
+}

@@ -1,0 +1,13 @@
+.list-of-link {
+}
+
+.list-of-link__item {
+}
+
+.list-of-link__link {
+    text-decoration: none;
+}
+
+.list-of-link__link:hover {
+    text-decoration: underline;
+}

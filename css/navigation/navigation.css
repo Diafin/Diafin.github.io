@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    color: black;
+    background: #ffffff;
+    font-weight: bold;
+}
+
+.navigation__page, .navigation__page_active {
+    padding: 15px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.navigation__page_active {
+    border: black solid 1px;
+}
+
+.navigation__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    text-decoration: none;
+}

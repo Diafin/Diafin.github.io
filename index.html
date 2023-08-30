@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Биография</title>
-    <link rel="stylesheet" type="text/css" href="external-css.css">
+    <link rel="stylesheet" type="text/css" href="css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="css/list-of-link/list-of-link.css">
+    <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/table-flex/table-flex.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation/navigation.css">
 </head>
 <body>
+
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__page_active">
+                <a
+                    class="navigation__link"
+                    href="index.html"
+                >
+                    Верещагин Данил
+                </a>
+            </li>
+            <li class="navigation__page">
+                <a
+                        class="navigation__link"
+                        href="index.html"
+                >
+                    Теории заговоров
+                </a>
+            </li>
+            <li class="navigation__page">
+                <a
+                        class="navigation__link"
+                        href="index.html"
+                >
+                    Помощь сайту
+                </a>
+            </li>
+        </ul>
+    </nav>
+
     <h1>Верещагин Данил Олегович</h1>
     <div class="dflex">
         <div>
@@ -14,14 +50,16 @@
             Родился в маленьком городке ...
             (Название и местополежение города засекречены правительством Российской Федерации).
             Но так как наша ВИКИ плевать хотела на запреты, да мы бунтари, ъеъ, то мы доносим, что это Белая Калитва.
-            <sup><a href="#1">[1]</a></sup>
+            <sup>
+                <a href="#1">[1]</a>
+            </sup>
         </div>
         <div>
             <img
-                    src="ostap.jpg"
-                    width="240"
-                    height="160"
-                    alt=""
+                src="image/ostap.jpg"
+                width="240"
+                height="160"
+                alt=""
             >
         </div>
     </div>
@@ -30,14 +68,43 @@
     <h3>Краткая информация</h3>
     <div>
         <UL>
-            <li><b>ФИО: </b>Верещагин Данил Олегович</li>
-            <li><b>Кем является: </b>Вор в законе</li>
-            <li><b>Где именно: </b>Сумиловский городок</li>
-            <li><b>Кличка: </b>Мафиозник<sup><a href="#2">[2]</a></sup></li>
-            <li><b>Происхождение: </b>Древний рус<sup><a href="#3">[3]</a></sup></li>
-            <li><b>Возраст: </b>Не помнит. Я бы дал меньше<sup><a href="#4">[4]</a></sup></li>
             <li>
-                <b>Место учёбы: </b> HИИХУЯ - Hаучно Исследовательский Институт Химических Удобрений и Ядов.<br>
+                <b>ФИО: </b>
+                Верещагин Данил Олегович
+            </li>
+            <li>
+                <b>Кем является: </b>
+                Вор в законе
+            </li>
+            <li>
+                <b>Где именно: </b>
+                Сумиловский городок
+            </li>
+            <li>
+                <b>Кличка: </b>
+                Мафиозник
+                <sup>
+                    <a href="#2">[2]</a>
+                </sup>
+            </li>
+            <li>
+                <b>Происхождение: </b>
+                Древний рус
+                <sup>
+                    <a href="#3">[3]</a>
+                </sup>
+            </li>
+            <li>
+                <b>Возраст: </b>
+                Не помнит. Я бы дал меньше
+                <sup>
+                    <a href="#4">[4]</a>
+                </sup>
+            </li>
+            <li>
+                <b>Место учёбы: </b>
+                HИИХУЯ - Hаучно Исследовательский Институт Химических Удобрений и Ядов.
+                <br>
                 СИФИЛИС — Сибирский институт философии и истории
             </li>
         </UL>
@@ -49,7 +116,8 @@
     <h3>Некраткая информация</h3>
     <div>
         <UL>
-            <li><b>Хобби: </b>
+            <li>
+                <b>Хобби: </b>
                 <ul>
                     <li>Сражение с древними ящерами</li>
                     <li>Расщепление атома урана</li>
@@ -77,38 +145,43 @@
 
     <hr>
     <h3>Любимые цитаты</h3>
-    <table border="3">
-        <tr>
-            <th>Владелец</th>
-            <th>Цитата</th>
-        </tr>
-        <tr>
-            <td>Остап Бендер</td>
-            <td>Дениги валяются повсюду, нужно уметь их подбирать</td>
-        </tr>
-        <tr>
-            <td>Питтер Квилл</td>
-            <td>И тут понеслось</td>
-        </tr>
-        <tr>
-            <td>Фильм "Джентельмены"</td>
-            <td>-То есть вы его убили?<br>
+    <div class="table-flex">
+        <div class="table-flex__heading">
+            <div class="table-flex__cell table-flex__cell_left">Владелец</div>
+            <div class="table-flex__cell table-flex__cell_right">Цитата</div>
+        </div>
+        <div class="table-flex__item">
+            <div class="table-flex__cell table-flex__cell_left">Остап Бендер</div>
+            <div class="table-flex__cell table-flex__cell_right">Деньги валяются повсюду, нужно уметь их подбирать</div>
+        </div>
+        <div class="table-flex__item">
+            <div class="table-flex__cell table-flex__cell_left">Питтер Квилл</div>
+            <div class="table-flex__cell table-flex__cell_right">И тут понеслось</div>
+        </div>
+        <div class="table-flex__item">
+            <div class="table-flex__cell table-flex__cell_left">Фильм "Джентельмены"</div>
+            <div class="table-flex__cell table-flex__cell_right">
+                -То есть вы его убили?
+                <br>
                 -Нет, его гравитация убила
-            </td>
-        </tr>
-        <tr>
-            <td>Художественный фильм "Спиздили"</td>
-            <td>Все цитаты. Но особенно: "Ненавижу, блять, циган!"</td>
-        </tr>
-
-    </table>
+            </div>
+        </div>
+        <div class="table-flex__item">
+            <div class="table-flex__cell table-flex__cell_left">Художественный фильм "Спиздили"</div>
+            <div class="table-flex__cell table-flex__cell_right">
+                Борис Бритва, или Борис-Хрен-Попадёшь, резкий, как удар серпом по яйцам, и жёсткий,
+                как удар молотом. Живой советский герб. Говорят, эту сволочь вообще невозможно убить.
+            </div>
+        </div>
+    </div>
 
     <hr>
     <h3>Ссылки на первоисточники, а может и нет</h3>
     <div>
-        <Ol>
-            <li>
+        <Ol class="list">
+            <li class="list-of-link__item">
                 <a
+                    class="list-of-link__link"
                     id="1"
                     href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%9A%D0%B0%D0%BB%D0%B8%D1%82%D0%B2%D0%B0"
                 >
@@ -116,24 +189,27 @@
                 </a>
                 - город в Ростовской области
             </li>
-            <li>
+            <li class="list-of-link__item">
                 <a
+                    class="list-of-link__link"
                     id="2"
                     href="https://www.youtube.com/watch?v=XutKt6GrvhU&ab_channel=%D0%9B%D1%8E%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C4%D0%9A"
                 >
                 Зубенко Михаил Петрович
                 </a>
             </li>
-            <li>
+            <li class="list-of-link__item">
                 <a
+                    class="list-of-link__link"
                     id="3"
                     href="https://the-flow.ru/features/drevnie-rusy-protiv-yascherov"
                 >
                     Древние русы против Ящеров
                 </a>
             </li>
-            <li>
+            <li class="list-of-link__item">
                 <a
+                    class="list-of-link__link"
                     id="4"
                     href="https://www.youtube.com/watch?v=ZJDYK1AcQOY&t=2s&ab_channel=VBMStorage"
                 >
@@ -144,8 +220,20 @@
     </div><br>
 
     <hr>
-    <footer>
-        <i>Ни один редактир не пострадал, всё написанное - выдумка. С уважением, Федеральная Служба Безопасности :)</i>
+    <footer class="footer-post">
+        <div class="footer-post__image">
+            <img
+                src="image/kgb.jpg"
+                alt="" width="128"
+                height="128"
+            >
+        </div>
+        <div class="footer-post__text">
+            <i>
+                Ни один редактир не пострадал, всё написанное - выдумка. С уважением, Федеральная Служба Безопасности :)
+            </i> 
+        </div>
+
     </footer>
 </body>
 </html>

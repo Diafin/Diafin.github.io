@@ -1,0 +1,40 @@
+.table-flex {
+    margin: 3rem 3rem 3rem 3rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-flex__heading, .table-flex__item {
+    display: flex;
+    color: #ffffff;
+    background: #444444;
+}
+
+.table-flex__heading {
+    min-height: 36px;
+    font-weight: bold;
+}
+
+.table-flex__item {
+    min-height: 24px;
+}
+
+.table-flex__cell {
+    display: table-cell;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #ffffff;
+}
+
+.table-flex__cell_left {
+    width: 20%;
+}
+
+.table-flex__cell_right {
+    width: 80%;
+    background: #c50000;
+}

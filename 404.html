@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Не найдено</title>
+    <link href="https://fonts.cdnfonts.com/css/days-2" rel="stylesheet">
     <style>
+        .background-404 {
+            background: url("aaaaaaaaaa.jpg");
+        }
+
+        .header-error-404, .text-error-404 {
+            text-align: center;
+            color: white;
+            text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+            font-family: Days, Sans-Serif,serif;
+        }
+
         .header-error-404 {
-            align-content: center;
+            font-size: 192px;
+        }
+
+        .text-error-404 {
+            font-size: 48px;
+        }
+
+        .link-404 {
+            text-decoration: none;
         }
     </style>
 </head>
-<body>
-    <h4 class="header-error-404">404</h4>
-    <div class="content-404">
-        Uh-oh! We couldn't find the page you are looking for.
+<body class="background-404">
+    <div class="header-error-404">404</div>
+    <div class="text-error-404">
+        The groundhog is very upset that you are wandering through non-existent pages
     </div>
-    <p>
-        <a href="/">Check our home page</a>
-    </p>
+    <br>
+    <div class="text-error-404">
+        <a class="link-404" href="https://diafin.github.io/">Better come here</a>
+    </div>
 </body>
 </html>

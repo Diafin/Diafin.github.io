@@ -1,0 +1,23 @@
+.error-404__background {
+    background: url("../../image/wow.jpg");
+}
+
+.error-404__header, .error-404__text {
+    text-align: center;
+    margin-left: 40%;
+    color: white;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+    font-family: Days, Sans-Serif,serif;
+}
+
+.error-404__header {
+    font-size: 192px;
+}
+
+.error-404__text {
+    font-size: 48px;
+}
+
+.error-404__link {
+    text-decoration: none;
+}

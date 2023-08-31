@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-class PlayerController
+use App\Block\PlayerBlock;
+
+class PlayerController extends AbstractController
 {
     public function execute()
     {
-        echo 'Информация о пользователе';
+        (new PlayerBlock())->render();
     }
 }

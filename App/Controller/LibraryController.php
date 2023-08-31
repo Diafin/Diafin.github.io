@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-class LibraryController
+use App\Block\LibraryBlock;
+
+class LibraryController extends AbstractController
 {
     public function execute()
     {
-        echo 'Информация о библиотеке игр';
+        (new LibraryBlock())->render();
     }
 }

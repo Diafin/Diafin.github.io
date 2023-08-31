@@ -4,30 +4,22 @@ declare(strict_types=1);
 
 namespace App\Router;
 
-use App\Controller\GameController;
-use App\Controller\IndexController;
-use App\Controller\LibraryController;
-use App\Controller\PlayerController;
+use App\Controller\AbstractController;
+use App\Controller\NotFoundErrorController;
 
 class Router
 {
     public function selectController(string $route)
     {
-        switch ($route) {
-            case '/':
-                (new IndexController())->execute();
-                break;
-            case '/player':
-                (new PlayerController())->execute();
-                break;
-            case '/library':
-                (new LibraryController())->execute();
-                break;
-            case '/game':
-                (new GameController())->execute();
-                break;
-            default:
-                echo '404';
+        $controllerMap = require_once APP_ROOT . '/etc/routes.php';
+
+        $class = $controllerMap[$route] ?? null;
+        if ($class) {
+            /** @var AbstractController $controller */
+            $controller = new $class();
+            $controller->execute();
+        } else {
+            (new NotFoundErrorController())->execute();
         }
     }
 }

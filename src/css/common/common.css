@@ -1,0 +1,38 @@
+body {
+    font-family: "Days", serif;
+}
+
+.dflex {
+    display: flex;
+}
+
+.main-text {
+    font-size: 96px;
+}
+
+body:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../image/site-background.jpg');
+    background-size: cover;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1;
+}
+.content-wrap {
+    background: rgba(17, 3, 17, 0.9);
+}
+
+/* Boxed container */
+.content-wrap {
+    min-width: 100vh;
+}
+
+.background_anime {
+    background-image: url("../../image/banner-bg.jpg");
+    background-size: 100% 100%;
+}

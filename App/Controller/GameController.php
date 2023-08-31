@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-class GameController
+use App\Block\GameBlock;
+
+class GameController extends AbstractController
 {
     public function execute()
     {
-        echo 'Информация об игре';
+        (new GameBlock())->render();
     }
 }

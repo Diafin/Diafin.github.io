@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-class IndexController
+use App\Block\IndexBlock;
+
+class IndexController extends AbstractController
 {
     public function execute()
     {
-        echo 'Добро пожаловать на главную страницу';
+        (new IndexBlock())->render();
     }
 }

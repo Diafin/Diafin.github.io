@@ -1,5 +1,10 @@
 .footer-post {
+
+}
+
+.footer-post__content {
     display: flex;
+    flex-direction: row;
 }
 
 .footer-post__image {

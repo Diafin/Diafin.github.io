@@ -1,6 +1,5 @@
 .navigation {
     display: flex;
-    color: black;
     background: #ffffff;
     font-weight: bold;
 }
@@ -22,4 +21,12 @@
 
 .navigation__link:hover {
     text-decoration: none;
+}
+
+.navigation_red {
+    background: red;
+}
+
+.navigation_green {
+    background: green;
 }

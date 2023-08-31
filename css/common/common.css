@@ -1,4 +1,8 @@
 body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    height: 100%;
     color: white;
     background: black;
     font-family: "Times New Roman", serif;

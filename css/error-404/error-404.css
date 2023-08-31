@@ -4,10 +4,10 @@
 
 .error-404__header, .error-404__text {
     text-align: center;
+    margin-left: 40%;
     color: white;
     text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
     font-family: Days, Sans-Serif,serif;
-    margin-left: 40%;
 }
 
 .error-404__header {

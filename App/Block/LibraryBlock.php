@@ -8,6 +8,6 @@ class LibraryBlock
 {
     public function render()
     {
-        echo 'library';
+        require_once APP_ROOT . '/view/template/library.phtml';
     }
 }

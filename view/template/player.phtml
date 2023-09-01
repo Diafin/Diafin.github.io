@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Профиль</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/src/image/icon.png">
+    <link href="https://fonts.cdnfonts.com/css/days-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/videopac" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/src/css/neon/neon-text.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/src/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/bower_components/magnific-popup/dist/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/youplay/css/youplay.min.css" />
+    <link rel="stylesheet" type="text/css" href="/src/assets/youplay/css/youplay-anime.min.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/common/common.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/pushbutton/pushbutton.css">
+    <link rel="stylesheet" type="text/css" href="/src/css/background/background.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<!--<div class="page-preloader preloader-wrapp">-->
+<!--    <img src="src/image/logo.png" alt="">-->
+<!--    <div class="preloader"></div>-->
+<!--</div>-->
+<!-- /Preloader -->
+
+<!-- Navbar -->
+<nav class="navbar-youplay navbar navbar-default navbar-fixed-top navbar-small">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <img src="../../src/image/logo.png" alt="">
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <button
+                        class="pushbutton__glow-on-hover"
+                        onclick="window.location.href = '/'"
+                    >
+                        Главная страница
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="pushbutton__glow-on-hover"
+                        onclick="window.location.href = '/player'"
+                    >
+                        Личный кабинет
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="pushbutton__glow-on-hover"
+                        onclick="window.location.href = '/library'"
+                    >
+                        Библиотека
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="pushbutton__glow-on-hover"
+                        onclick="window.location.href = '/game'"
+                    >
+                        Игры
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="content-wrap">
+    <div class="youplay-banner banner-top youplay-banner-parallax small background_diablo">
+        <div class="youplay-user-navigation">
+            <div class="container">
+                <ul>
+                    <li class="active">
+                        <a href="user-profile.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="user-messages.html">Library</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <div>
+                <div class="container youplay-user">
+                    <a href="src/image/user-photo.jpg" class="angled-img image-popup">
+                        <div class="img">
+                            <img src="src/image/user-avatar.jpg" alt="">
+                        </div>
+                        <i class="fa fa-search-plus icon"></i>
+                    </a>
+
+                    <div class="user-data">
+                        <h2>John Doe</h2>
+                        <div class="location"><i class="fa fa-map-marker"></i> Los Angeles</div>
+                        <div class="activity">
+                            <div>
+                                <div class="num">69</div>
+                                <div class="title">Posts</div>
+                            </div>
+                            <div>
+                                <div class="num">12</div>
+                                <div class="title">Games</div>
+                            </div>
+                            <div>
+                                <div class="num">689</div>
+                                <div class="title">Followers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-20">
+                    <a href="#!" class="btn btn-sm btn-default ml-0">Add Friend</a>
+                    <a href="#!" class="btn btn-sm btn-default">Private Message</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container youplay-content">
+        <div class="row">
+            <div class="col-md-9">
+                <h3 class="mt-0 mb-20">John Doe</h3>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td style="width: 200px;">
+                            <p>Hometown</p>
+                        </td>
+                        <td>
+                            <p><a href="#">New York</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Relationship status</p>
+                        </td>
+                        <td>
+                            <p><a href="#">Married</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Studied at</p>
+                        </td>
+                        <td>
+                            <p><a href="#">New York University, NYU</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Languages</p>
+                        </td>
+                        <td>
+                            <p><a href="#">English</a>, <a href="#">Japan</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="mt-40 mb-20">Contact Information</h3>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td style="width: 200px;">
+                            <p>Current City</p>
+                        </td>
+                        <td>
+                            <p><a href="#">New York</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Mobile</p>
+                        </td>
+                        <td>
+                            <p>+1 *** ** ** 11 11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Instagram</p>
+                        </td>
+                        <td>
+                            <p><a href="#">@instagram</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Twitter</p>
+                        </td>
+                        <td>
+                            <p><a href="#">#twitter</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="mt-40 mb-20">Personal Information</h3>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td style="width: 200px;">
+                            <p>Current City</p>
+                        </td>
+                        <td>
+                            <p><a href="#">New York</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Favorite games</p>
+                        </td>
+                        <td>
+                            <p><a href="#">Bloodborne</a>, <a href="#">Dark Souls II</a>, <a href="#">Kingdoms of Amalur</a>, <a href="#">The Witcher</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>About Me</p>
+                        </td>
+                        <td>
+                            <p>Netus. Nascetur arcu amet accumsan natoque. Augue aptent euismod sed magna diam nostra, molestie mi felis. Egestas nisl ante posuere dui Nostra tempus pulvinar at dui augue mattis placerat iaculis hac arcu rutrum.</p>
+
+                            <p>Vel <strong>class</strong> lectus auctor interdum. Mi <strong>nec</strong> senectus commodo sed suscipit vitae parturient, risus vivamus quisque dolor aliquet amet. Etiam penatibus nascetur netus. Non leo eu vitae sem laoreet. Varius in
+                                augue. Mollis convallis.</p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="youplay-footer-parallax">
+        <div
+            class="wrapper"
+            style="background-image: url('/src/image/footer-bg-profile.jpg')"
+        >
+            <div class="social">
+                <div class="container">
+                    <h3>Социальные сети <strong>Orion Games</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a
+                                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                                target="_blank"
+                            >
+                                <img
+                                    class="fa fa-youtube"
+                                    src="https://cdn141.picsart.com/327737999037201.jpg"
+                                    width="72px"
+                                    height="72px"
+                                    alt="">
+                                <span>Смотрите на ютубе</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="container">
+                    <strong>Orion Games</strong> &copy; 2023. Все права защищены
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

@@ -8,6 +8,6 @@ class GameBlock
 {
     public function render()
     {
-        echo 'game';
+        require_once APP_ROOT . '/view/template/game.phtml';
     }
 }

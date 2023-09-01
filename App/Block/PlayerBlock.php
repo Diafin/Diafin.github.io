@@ -8,6 +8,6 @@ class PlayerBlock
 {
     public function render()
     {
-        echo 'player';
+        require_once APP_ROOT . '/view/template/player.phtml';
     }
 }

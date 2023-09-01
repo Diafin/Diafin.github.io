@@ -17,7 +17,7 @@ body:after {
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../image/site-background.jpg');
+    background-image: url('../../../../maket/image/site-background.jpg');
     background-size: cover;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -33,6 +33,6 @@ body:after {
 }
 
 .background_anime {
-    background-image: url("../../image/banner-bg.jpg");
+    background-image: url("../../../../maket/image/banner-bg.jpg");
     background-size: 100% 100%;
 }
